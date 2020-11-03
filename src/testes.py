@@ -8,23 +8,23 @@ jogo = jogovelha.inicializar()
 
 if len(jogo) != 3:
 
-    erroInicializar = True
+        erroInicializar = True
 
 else:
 
-    for linha in jogo:
+        for linha in jogo:
 
-        if len(linha) != 3:
+                if len(linha) != 3:
 
-            erroInicializar = True
+                        erroInicializar = True
 
-        else:
+                else:
 
-            for elemento in linha:
+                        for elemento in linha:
 
-                if elemento != '.':
+                                if elemento != '.':
 
-                    erroInicializar = True
+                                        erroInicializar = True
 
 if erroInicializar:
 
